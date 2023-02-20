@@ -1,9 +1,8 @@
 #include<stdio.h>
 /**
  * main - 2-print_alphabet
- *
- * Return- always return 0
- *
+ * Description: 'print'
+ * Return- Always 0
  */
  int main(void)
 {
@@ -12,6 +11,7 @@
 	for(ch = 'a'; ch <= 'z'; ch++) 
 	{
 		putchar(ch);
+		putchar('\n');
 	}
 	return 0;
 }
