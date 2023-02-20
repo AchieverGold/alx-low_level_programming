@@ -1,10 +1,10 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
  * main - Entry point
  * Description: 'print'
  * Return- Always 0
  */
- int main(void)
+int main(void)
 {
 	int num = 97;
 
