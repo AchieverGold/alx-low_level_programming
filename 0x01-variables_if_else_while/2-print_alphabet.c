@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
- * main - 2-print_alphabet
+ * main - Entry point
  * Description: 'print'
  * Return- Always 0
  */
@@ -8,7 +8,7 @@
 {
 	int num = 97;
 
-	while(num <= 122) 
+	while (num <= 122) 
 	{
 		putchar(num);
 		num++;
