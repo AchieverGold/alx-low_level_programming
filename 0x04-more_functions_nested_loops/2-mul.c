@@ -7,7 +7,7 @@
  * Return: The result of multiplication between x num and y num
  */
 
-int mul(int x, int y);
+int mul(int x, int y)
 {
 return (x * y);
 }
