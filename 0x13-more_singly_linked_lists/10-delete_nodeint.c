@@ -21,12 +21,12 @@ if (indx == 0)
 free(tmp);
 return (1);
 }
-while (i < indx - 1)
+while (a < indx - 1)
 {
 if (!tmp || !(tmp->next))
 return (-1);
 tmp = tmp->next;
-i++;
+a++;
 }
 
 curr = tmp->next;

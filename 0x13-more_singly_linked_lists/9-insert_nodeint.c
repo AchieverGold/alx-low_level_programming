@@ -24,7 +24,7 @@ if (indx == 0)
 {
 newnode->next = *head;
 *head = newnode;
-return (new);
+return (newnode);
 }
 for (a = 0; tmp && a < indx; a++)
 {
