@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * create_file - it  Creates a file.
  * @filename: its a pointer to the name of the file to create.
@@ -24,4 +23,8 @@ fna = open(filename, O_CREAT | O_RDWR | O_TRUNC, 0600);
 j = write(fna, text_content, lenght);
 if (fna == -1 || j == -1)
 return (-1);
+close(fna);
+return (1);
+}
+
 

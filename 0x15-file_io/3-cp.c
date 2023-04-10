@@ -33,7 +33,7 @@ return (buffa);
 void close_file(int fna)
 {
 int clo;
-clo = close(fd);
+clo = close(fna);
 if (clo == -1)
 {
 dprintf(STDERR_FILENO, "Error: Can not close fna %d\n", fna);
@@ -85,7 +85,7 @@ free(buffa);
 exit(99);
 }
 r = read(fro, buffa, 1024);
-to = open(argv[2], O_WRONLY | O_APPEND);
+too = open(argv[2], O_WRONLY | O_APPEND);
 } while (r > 0);
 free(buffa);
 close_file(fro);
